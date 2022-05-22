@@ -7,27 +7,70 @@
     <title>Portfólió Oldal</title>
 </head>
 <body>
-    <h1>Sipos Ákos portfólió oldala</h1>
-    <h2>Webfejlesztés, projektek</h2>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis voluptate optio error, praesentium enim at consequatur placeat officiis dolores neque.</p>
-    <p>Architecto dolorem placeat consectetur ipsum quaerat fuga mollitia natus necessitatibus sunt? Harum sapiente perspiciatis inventore officiis at atque omnis porro?</p>
-    <p>Voluptatem nemo dignissimos, porro officiis illo non maxime quasi, omnis obcaecati nesciunt similique illum quae incidunt quia quibusdam natus ducimus!</p>
-    <p>Quis explicabo voluptate voluptas pariatur nostrum fuga possimus, ad corrupti vitae aliquam nulla ut exercitationem, quasi optio, cupiditate impedit similique.</p>
-    <p>Unde, ea. Neque, vero, ad, dolorum consectetur dolores ipsa distinctio at eius rerum sunt quos vel veniam? Necessitatibus, inventore quaerat?</p>
-    <p>Possimus non odio perspiciatis facilis fugit, illo autem nemo sed, hic exercitationem vero adipisci fugiat at, earum dolor sunt molestiae.</p>
-    <p>Aut nostrum aliquam modi iusto accusantium aspernatur nesciunt, recusandae, quidem reprehenderit magnam eaque officiis non! Libero doloribus at vel placeat.</p>
-    <p>Voluptas hic totam ab suscipit, autem at dolores! Iure illo ipsam quos excepturi facilis voluptates, natus suscipit id rem sint.</p>
-    <p>Molestias voluptatum omnis quos quod perspiciatis natus dicta pariatur sint dolorum, velit, voluptates delectus est veniam, sunt enim perferendis ducimus.</p>
-    <p>Quasi quas eaque veniam nostrum optio ut architecto similique voluptatibus ipsam labore repudiandae rerum, dolores, perspiciatis, dicta magnam cupiditate corrupti.</p>
-    <p>Quidem nisi aliquid itaque. Architecto facere, perferendis iste atque labore quasi dolorum reprehenderit mollitia doloremque non voluptas aliquam odio et.</p>
-    <p>Pariatur assumenda numquam praesentium nesciunt cum laboriosam asperiores, quos possimus vitae placeat perferendis hic, obcaecati dignissimos. Vitae natus inventore at?</p>
-    <p>Dignissimos quasi, dolorum voluptatum ullam quibusdam est ipsa voluptatem facere. Modi nisi quaerat explicabo quod mollitia esse commodi qui consectetur.</p>
-    <p>Distinctio, asperiores! Rem soluta quos fugit, numquam natus voluptas doloremque, quia architecto nemo impedit neque eaque incidunt a facilis suscipit.</p>
-    <p>Laboriosam ipsam molestiae minima itaque rem tenetur minus odit, magnam, aliquid dolorem labore nulla delectus eos? Ipsum fuga enim nisi?</p>
-    <p>Dolorem explicabo autem quo necessitatibus debitis saepe, animi beatae quod dolorum corrupti commodi sed mollitia aliquid quas? Consequatur, ipsa quasi!</p>
-    <p>Qui vero iusto harum ullam maiores ab dolores error omnis nam, distinctio sit dolorum explicabo rerum in cum dolorem ut?</p>
-    <p>Voluptates quos minus amet cum ex perspiciatis provident, corporis, repudiandae dolore sed aliquam, ipsam illo dicta velit non officiis at?</p>
-    <p>Veniam quod maiores quisquam assumenda, ea molestias eveniet voluptate minus sint optio itaque adipisci corrupti non dolorum, dolor aspernatur doloremque.</p>
-    <p>Voluptatem perspiciatis hic incidunt quibusdam, tenetur sequi eaque quam architecto nostrum deserunt maiores? Facilis ratione praesentium reprehenderit, adipisci quam consequatur?</p>
+    <header>
+        <h2>Portfólió oldal</h2>
+        <nav>
+          <ul>
+            <li><a href="#rolam">Rólam</a></li>
+            <li><a href="#projektek">Projektek</a></li>
+            <li><a href="#kapcsolat">Kapcsolat</a></li>
+          </ul>
+        </nav>
+      </header>
+  
+      <section>
+        <h2 id="rolam">Rólam</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, ut
+          pariatur optio iusto quod unde aliquid impedit animi? Numquam, ducimus.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sint error 
+          eaque vel aspernatur, natus laudantium, dignissimos doloremque molestias voluptas 
+          assumenda dolorem et rerum aliquid, inventore ipsa. Est, mollitia ex!
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus hic quas quo beatae 
+          magnam autem a vitae rem soluta deleniti?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quasi id dolores magnam. 
+          Eaque tempora nulla rerum earum cupiditate atque.
+        </p>
+      </section>
+      <section> 
+        <h2>Projektek</h2>
+        <p>HTML és CSS</p>
+          <img src="/kepek/html.png" alt="HTML és CSS">
+        <p>JavaScript</p>
+          <img src="/kepek/js.jpg" alt="JavaScript">
+        <p>React</p>
+          <img src="/kepek/react.png" alt="React">
+        </section>
+  
+      <h2 id="kapcsolat">Kapcsolat</h2>
+      <form action="https://formspree.io/f/mgerbzya" method="POST">
+        <h3>Írj üzenetet!</h3>
+        <div id="kapcsolat">
+          <label>
+            Név:
+            <input type="text" name="név" placeholder="Név" />
+          </label>
+        </div>
+        <div>
+          <label>
+            E-mail:
+            <input type="email" name="email" placeholder="Email" />
+          </label>
+        </div>
+        <label>
+          Üzenet:
+          <textarea name="üzenet">
+              Üzenet
+          </textarea>
+        </label>
+        <div>
+            <input type="submit" value="Beküldés" />
+      </div>
+      </form>
+      <footer>
+        &copy; 2022
+      </footer>
 </body>
 </html>
