@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+/* font-family: 'Roboto', sans-serif;*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 300px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #85756E;
+}
+
+h3 {
+  color: black;
+  padding: 1rem;
+  margin: auto;
+}
+
+.projects_class {
+    text-align: center;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  font-weight: bold;
+  padding: 1.5rem;
+  margin: 1.5rem;
+  justify-content: space-between;
+  font-size: 32px;
+  border-radius: 30px;
+  background-color: white;
+  /*outline: 1px solid black;*/
+}
+
+li:hover {
+    background-color: rgba(128, 128, 128, .2);
+    margin: .8rem;
+    padding: .8rem;
+    border-radius: 25px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+.picture {
+  width: 350px;
+  height: 350px;
+  cursor: pointer;
+}
+
+.the_projects {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+
+.main_section {
+    margin: 3rem;
+    background-color: #CDC5B4;
+    border-radius: 15px;
+} 
+
+#aboutme {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.first_paragraph {
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 28px;
+}
+
+#projects {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+#contacts {
+  color: black;
+  padding: 1.5rem 0;
+  font-size: 32px;
+}
+
+.contact_section {
+  margin: 1rem;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 30px;
+ /* outline: 1px solid black; */
+}
+
+.form {
+  font-size: 28px;
+}
+
+.button {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  background-color: #f9004d;
+  cursor: pointer;
+}
+
+span {
+  color: #f9004d;
+  font-size: 52px;
+}
+
+input[type="text"] {
+  display: block;
+  margin: 8px 0;
+  padding: 12px 20px;
+  width: 50%;
+  border: 1px solid;
+}
+
+input[type="email"] {
+  display: block;
+  margin: 8px 0;
+  padding: 12px 20px;
+  width: 50%;
+  border: 1px solid;
+}
+
+textarea {
+  display: block;
+  margin: 8px 0;
+  padding: 12px 20px;
+  width: 50%;
+  border: 1px solid;
+}
+
+.leave_message {
+    color: black;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+footer {
+  margin: 1rem;
+}

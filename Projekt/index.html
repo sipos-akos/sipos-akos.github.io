@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio Site</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="list">
+          <li>
+            <a href="#aboutme"><span>A</span>bout me</a>
+          </li>
+          <li>
+            <a href="#projects"><span>P</span>rojects</a>
+          </li>
+          <li>
+            <a href="#contacts"><span>C</span>ontact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+    <div class="main_section">
+      <section>
+        <h3 id="aboutme"><span>A</span>bout me</h3>
+        <p class="first_paragraph">
+          Hello, my name is Akos, welcome to my site. I'm a
+          frontend developer.
+        </p>
+      </section>
+      <h3 id="projects"><span>P</span>rojects</h3>
+      <div>
+        <section class="the_projects">
+        <div>
+          <h3 class="projects_class">HTML & CSS</h3>
+          <img class="picture" src="./images/html-css.jpg" alt="HTML and CSS logo" />
+        </div>
+        <div>
+          <h3 class="projects_class">JavaScript</h3>
+          <img class="picture" src="./images/js.jpeg" alt="JavaScript logo" />
+        </div>
+        <div>
+          <h3 class="projects_class">React</h3>
+          <img class="picture" src="./images/react.jpg" alt="React logo" />
+        </div>
+        </section>
+      </div>
+    
+      </div>
+      <section class="contact_section">
+        <h2 id="contacts"><span>C</span>ontact:</h2>
+        <form class="form" action="https://formspree.io/f/mgerbzya" method="POST" >
+        <!--  <h4 class="leave_message">Leave a message:</h4> -->
+          <div class="first-label">
+            <label>
+              <input type="text" name="name" placeholder="Enter your Name" required/>
+            </label>
+          </div>
+          <div class="second-label">
+            <label>
+              <input type="email" name="email" placeholder="Enter your e-mail" required/>
+            </label>
+          </div>
+          <div class="third-label">
+            <label>
+              <textarea name="message">Leave a message</textarea>
+            </label>
+          </div>
+          <div>
+            <button class="button">Submit</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      &copy; 2022
+    </footer>
+  </body>
+</html>
