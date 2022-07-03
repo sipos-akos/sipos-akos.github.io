@@ -1,79 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólió Oldal</title>
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio Site</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
     <header>
-        <nav class="nav-container">
-            <ul>
-              <li><a href="#rolam">Rólam</a></li>
-              <li><a href="#projektek">Projektek</a></li>
-              <li><a href="#kapcsolat">Kapcsolat</a></li>
-          </ul>
-        </nav>
-      </header>
-  
-      <section class="first-section">
-        <h2 id="rolam">Rólam</h2>
-        <p class="paragraph">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, ut
-          pariatur optio iusto quod unde aliquid impedit animi? Numquam, ducimus.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sint error 
-          eaque vel aspernatur, natus laudantium, dignissimos doloremque molestias voluptas 
-          assumenda dolorem et rerum aliquid, inventore ipsa. Est, mollitia ex!
-        </p>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus hic quas quo beatae 
-          magnam autem a vitae rem soluta deleniti?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quasi id dolores magnam. 
-          Eaque tempora nulla rerum earum cupiditate atque.
+      <nav>
+        <ul class="list">
+          <li>
+            <a href="#aboutme"><span>A</span>bout me</a>
+          </li>
+          <li>
+            <a href="#projects"><span>P</span>rojects</a>
+          </li>
+          <li>
+            <a href="#contacts"><span>C</span>ontact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+    <div class="main_section">
+      <section>
+        <h3 id="aboutme"><span>A</span>bout me</h3>
+        <p class="first_paragraph">
+          Hello, my name is Akos, welcome to my site. I'm a
+          frontend developer.
         </p>
       </section>
-      <h2 id="projektek">Projektek</h2>
-     
-        <!--<p >HTML és CSS</p>-->
-          <img src="./kepek/html.jpeg" alt="HTML és CSS">
-        <!-- <p>JavaScript</p> -->
-          <img class="img-two" src="./kepek/js.jpeg" alt="JavaScript">
-        <!-- <p>React</p> -->
-          <img class="img-three" src="./kepek/react.jpeg" alt="React">
-        
-  
-      <h2 id="kapcsolat">Kapcsolat</h2>
-      <div class="container">
-      <form action="https://formspree.io/f/mgerbzya" method="POST">
-        <h3>Írj üzenetet!</h3>
+      <h3 id="projects"><span>P</span>rojects</h3>
+      <div>
+        <section class="the_projects">
         <div>
-          <label>
-            Név:
-            <input type="text" name="név" placeholder="Név" />
-          </label>
+          <h3 class="projects_class">HTML & CSS</h3>
+          <img class="picture" src="../sipos-akos.github.io/images/html-css.jpg" alt="HTML and CSS logo" />
         </div>
         <div>
-          <label>
-            E-mail:
-            <input type="email" name="email" placeholder="Email" />
-          </label>
+          <h3 class="projects_class">JavaScript</h3>
+          <img class="picture" src="../sipos-akos.github.io/images/js.jpeg" alt="JavaScript logo" />
         </div>
         <div>
-        <label>
-          Üzenet:
-          <textarea name="üzenet">
-          </textarea>
-        </label>
+          <h3 class="projects_class">React</h3>
+          <img class="picture" src="../sipos-akos.github.io/images/react.jpg" alt="React logo" />
+        </div>
+        </section>
       </div>
-            <input type="submit" value="Beküldés"> 
-      </form>
-    </div>
-      <footer>
-        &copy; 2022
-      </footer>
-</body>
+    
+      </div>
+      <section class="contact_section">
+        <h2 id="contacts"><span>C</span>ontact:</h2>
+        <form class="form" action="https://formspree.io/f/mgerbzya" method="POST" >
+        <!--  <h4 class="leave_message">Leave a message:</h4> -->
+          <div class="first-label">
+            <label>
+              <input type="text" name="name" placeholder="Enter your Name" required/>
+            </label>
+          </div>
+          <div class="second-label">
+            <label>
+              <input type="email" name="email" placeholder="Enter your e-mail" required/>
+            </label>
+          </div>
+          <div class="third-label">
+            <label>
+              <textarea name="message">Leave a message</textarea>
+            </label>
+          </div>
+          <div>
+            <button class="button">Submit</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      &copy; 2022
+    </footer>
+  </body>
 </html>

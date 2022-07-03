@@ -1,1 +1,0 @@
-# sipos-akos.github.io
