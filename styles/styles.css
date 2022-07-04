@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
-/* font-family: 'Roboto', sans-serif;*/
 
 * {
   padding: 0;
@@ -37,7 +36,6 @@ h3 {
   font-size: 32px;
   border-radius: 30px;
   background-color: white;
-  /*outline: 1px solid black;*/
 }
 
 li:hover {
@@ -100,7 +98,6 @@ li a {
   padding: 1.5rem;
   background-color: white;
   border-radius: 30px;
- /* outline: 1px solid black; */
 }
 
 .form {
